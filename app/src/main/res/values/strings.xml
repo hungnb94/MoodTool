@@ -1,0 +1,266 @@
+<resources>
+    <string name="app_name">MoodTool</string>
+    <string name="get_started">Get Started</string>
+    <string name="swipe_guide">Swipe to learn more about the tools</string>
+    <string name="this_app_provide">This app provides a suite of different tools to help you lift your mood</string>
+    <string name="welcome_to">Welcome to Moodtools!</string>
+    <string name="information">Information</string>
+    <string name="information_guide">Read basic depression information, follow a thorough guide, and find helpful resources</string>
+    <string name="test">Test</string>
+    <string name="test_guide">Take a depression questionnaire to measure your symptom severity</string>
+    <string name="videos">Videos</string>
+    <string name="videos_guide">Discover helpful videos can improve you mood</string>
+    <string name="thought_diary">Thought Diary</string>
+    <string name="thought_diary_guide">Challenge and reframe you negative thoughts</string>
+    <string name="activities">Activities</string>
+    <string name="activities_guide">Perform healthy activities and track your changes in mood</string>
+    <string name="safety_plan">Safety Plan</string>
+    <string name="safety_plan_guide">Develop a safety plan to cope with suicidal thoughts</string>
+    <string name="additional_app">Additional Apps</string>
+    <string name="setting">Settings</string>
+    <string name="support">Support</string>
+    <string name="share">Share</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="other">Other</string>
+    <string name="contact_us">Contact us</string>
+    <string name="webpage">Webpage</string>
+    <string name="about">About</string>
+    <string name="send_mail">Send mail</string>
+    <string name="about_act_1">MoodTools is a pioneer in the burgeoning field of mobile mental health. Founded in 2014, MoodTools has quickly become the top mobile solution for clinical depression.</string>
+    <string name="about_act_2">Our mission is to package evidence-based strategies in an accessible design and bring them to our pocket for free to help you recover from clinical depression.</string>
+    <string name="version">Version: 2.1</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="test_disclaimer">Disclaimer: This PHQ-9 questionnaire is a self-administered instrument used in primary care settings. This test is NOT diagnostic test. Please consult your physician if you are concerned about your mood.</string>
+    <string name="start_test">Start Test</string>
+    <string name="history">History</string>
+    <string name="reminder">Reminder</string>
+    <string name="over_last_2_weeks_how_often_bothered">Over the last 2 weeks, how often have you been bothered by…</string>
+    <string name="not_at_all">Not at all</string>
+    <string name="undo">Undo</string>
+    <string name="several_days">Several days</string>
+    <string name="more_than_half_the_days">More than half the days</string>
+    <string name="nearly_every_day">Nearly every day</string>
+    <string name="your_total_score_was">Your total score was</string>
+    <string name="enable_notification">Enable Notification</string>
+    <string name="call_suicide_hotline">Call Suicide Hotline</string>
+    <string name="online_therapy">Online Therapy</string>
+    <string name="find_help">Find Help</string>
+    <string name="how_to_sleep_better">How to Sleep Better</string>
+    <string name="dealing_ith_suicidal_thoughts">Dealing ith Suicidal Thoughts</string>
+    <string name="every_2_weeks">Every 2 Weeks</string>
+    <string name="sound">Sound</string>
+    <string name="default_rington">Default ringtone</string>
+    <string name="frequency">Frequency</string>
+    <string name="soothing_sounds">Soothing Sounds</string>
+    <string name="ted_talks">TED Talks</string>
+    <string name="guided_meditations">Guided Meditations</string>
+    <string name="date">Date</string>
+    <string name="situation">Situation</string>
+    <string name="guide_thought_diary">Press the + button to create a new entry or press the ? button to read the instructions.</string>
+    <string name="home">Home</string>
+    <string name="info">Info</string>
+    <string name="resources">Resources</string>
+    <string name="guide">Guide</string>
+    <string name="what_is_depression">What is Depression?</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="types">Types</string>
+    <string name="causes">Causes</string>
+    <string name="treatments">Treatments</string>
+    <string name="dialectical_behavior_therapy">Dialectical Behavior Therapy</string>
+    <string name="suicide_prevention">Suicide Prevention</string>
+    <string name="mindfulness_meditation">Mindfulness Meditation</string>
+    <string name="acceptance_and_commitment_therapy">Acceptance and Commitment Therapy</string>
+    <string name="cognitive_behavioral_therapy">Cognitive-Behavioral Therapy</string>
+    <string name="lifestyle_changes">Lifestyle Changes</string>
+    <string name="find_a_therapist">Find a Therapist</string>
+    <string name="help_guide">Help Guide</string>
+    <string name="depression_information">Depression Information</string>
+    <string name="depression_is">
+        Everyone feels sad at times, but typically these feelings pass within a couple of days. Clinical depression is a biological condition in which sadness (or apathy) becomes so overwhelming that it interferes with your daily life.\n\n
+        When you have depression, it is hard to enjoy life, concentrate, and do daily tasks like you used to. You may feel hopeless, unmotivated, persistently down, or very irritable. However, there is hope! With the help of therapy and medication, millions of people have already overcome their depression, and we want to present this same hope to you.\n\n
+        Additionally, this application provides multiple tools to help you lift your mood. If you feel like you may be suffering from depression, be sure to ake the Depression Test to get a general sense of your symptom severity. In the Videos section, you can check out helpful videos or curate your own list of mood-boosters. Challenge your negative thoughts by identifying the cognitive distortions within them in th Thought Diary. Perform engaging activities in the Activities section and measure ow they impact your mood. If you are dealing with suicidal thoughts, create a Safety Plan to help keep you safe.
+    </string>
+    <string name="click_link_for_more_detail">Click on the links below for more detailed information.</string>
+    <string name="link_what_is_depression">
+        <a href='http://www.apa.org/helpcenter/understanding-depression.aspx'>http://www.apa.org/helpcenter/understanding-depression.aspx</a>
+    </string>
+    <string name="symptoms_is">The two primary symptoms of clinical depression is a depressed mood most of the day and a lot of interest in normal activities an relationships, with these symptoms occurring nearly every day for at least 2 weeks. Other symptoms may include:</string>
+    <string name="symptoms_cause">
+        <li>Fatigue or loss of energy</li>\n
+        <li>Feelings of worthlessness or guilt</li>\n
+        <li>Impaired concentration, indecisiveness</li>\n
+        <li>Insomnia or hypersomnia (excessive sleeping)</li>\n
+        <li>Markedly diminished interest or pleasure in almost all activities</li>\n
+        <li>Restlessness or feeling slowed down</li>\n
+        <li>Recurring thoughts of death or suicide Significant weight loss or gain</li>
+    </string>
+    <string name="symptoms_various_detail">People who have depression do not all experience the same symptoms. The severity, frequency, duration, and type of symptoms vary from person to person.</string>
+    <string name="depressive_disorder_various">While most people simply have Major Depressive Disorder, there are also several other subtypes of depressive disorders.</string>
+    <string name="major_depressive_disorder">Major Depressive Disorder</string>
+    <string name="major_depressive_is">Typical clinical depression is marked by a depressed mood most of the day and a loss of interest in normal activities and relationship, with symptoms that are nearly everyday for at least 2 weeks. Symptoms include:</string>
+    <string name="major_depressive_symptoms">
+        <li>Depressed mood</li>\n
+        <li>Fatigue or loss of energy almost every day</li>\n
+        <li>Feelings of worthlessness or guilt almost every day</li>\n
+        <li>Impaired concentration, indecisiveness</li>\n
+        <li>Insomnia or hypersomnia (excessive sleeping) almost every day</li>\n
+        <li>Markedly diminished interest or pleasure in almost all activities nearly every day</li>\n
+        <li>Restlessness or feeling slowed down</li>\n
+        <li>Recurring thoughts of death or suicide</li>\n
+        <li>Significant weight loss or gain (a change of more than 5% of body weight in a month)</li>
+    </string>
+    <string name="seasonal_affective_disorder">Seasonal Affective Disorder</string>
+    <string name="seasonal_affective_disorder_is">Many people develop depression when the season turns from fall to winter. Seasonal affective disorder affects around 1–2% of the population, and is thought to be caused by diminished exposure to bright light. This disorder is more common in extremely northern or southern areas where there is less sunlight during winter. Symptoms of seasonal affective disorder are similar to those of major depressive disorder nd can often be effectively treated with light therapy.</string>
+    <string name="link_seasonal_affective_disorder">
+        <a href='http://www.webmd.com/mental-health/tc/seasonal-affective-disorder-sad-topic-overview'>http://www.webmd.com/mental-health/tc/seasonal-affective-disorder-sad-topic-overview</a>
+    </string>
+    <string name="persistent_depressive_disorder">Persistent Depressive Disorder (Dysthymia)</string>
+    <string name="persistent_depressive_detail">Persistent depressive disorder, also referred to as chronic depression or dysthymia, has less severe and fewer symptoms than major depression but the condition often lasts for longer periods of time. People often describe feeling like they\'re functioning at "75% of normal." With persistent depressive disorder, there maybe major depressive mood, and a person who is diagnosed would have had depressive symptoms for at least two years. Those who suffer from persistent depressive disorder can also experience periods of major depression-sometimes called double depression.</string>
+    <string name="link_persistent_depressive">
+        <a href='http://www.webmd.com/depression/guide/chronic-depression-dysthymia'>http://www.webmd.com/depression/guide/chronic-depression-dysthymia</a>
+    </string>
+    <string name="bipolar_disorder">Bipolar Disorder (Manic Depression)</string>
+    <string name="bipolar_disorder_detail">Bipolar disorder, also called manic depression, is a complex mood disorder that alternates between periods of clinical depression and extreme elation or mania. Abnormal behavior during manic episodes includes:</string>
+    <string name="bipolar_disorder_symtoms">
+        <li>Increased energy, with hyperactivity and a decreased need for sleep</li>\n
+        <li>Sudden jumping from one idea to the next</li>\n
+        <li>Rapid and loud speech</li>\n
+        <li>Inflated self-image</li>\n
+        <li>Increase in goal-directed activity (suddenly more productive than usual at work or school, or sexually)</li>\n
+        <li>Poor impulse control, engaging in activities with a high potential for painful consequences (excessive spending, sexual indiscretions, uncharacteristic investments)</li>
+    </string>
+    <string name="addition_info_bipolar_disorder">In addition, people may become delusional or have other psychotic syptoms during a manic episode.</string>
+    <string name="link_bipolar_disorder">
+        <a href='http://www.nimh.nih.gov/health/topics/bipolar-disorder/index.shtml'>http://www.nimh.nih.gov/health/topics/bipolar-disorder/index.shtml</a>
+    </string>
+    <string name="postpartum_depression">Postpartum Depression</string>
+    <string name="postpartum_depression_detail">Postpartum depression, now called depression with peripartum onset, affects between 3 and 6 percent of women either during pregnancy or in the weeks following childbirth. Symptoms are similar to what typically happens after during pregnancy or childbirth, such as difficulty sleeping, appetite changes, fatigue, decreased sex drive, and mood swings. However, these are also accompanied by other symptoms of major depression such as depressed mood, feelings of worthlessness, hopelessness, thoughts of death, or thoughts of hurting oneself or one\'s baby.</string>
+    <string name="link_postpartum_depression">
+        <a href='http://www.mayoclinic.org/diseases-conditions/postpartum-depression/basics/definition/con-20029130'>http://www.mayoclinic.org/diseases-conditions/postpartum-depression/basics/definition/con-20029130</a>
+    </string>
+    <string name="atypical_depression">Atypical Depression</string>
+    <string name="atypical_depression_detail">Atypical depression is similar in many ways to other types of depression, except that sufferers temporarily experience improved mood in response to positive events or good news. Other atypical depression symptoms include an increased appetite, significant weight gain, excessive sleep, a heavy feeling in the limbs, and sensitivity to rejection.</string>
+    <string name="link_atypical_depression">
+        <a href='http://www.webmd.com/depression/guide/atypical-depression'>http://www.webmd.com/depression/guide/atypical-depression</a>
+    </string>
+    <string name="psychotic_depression">Psychotic Depression</string>
+    <string name="psychotic_depression_detail">Psychotic depression occurs when a person has serve depression in addition to some form of psychosis, such as having a distorted break from reality or disturbing false beliefs (delusions), or hearing/seeing distressing things that others cannot hear or see (hallucinations).</string>
+    <string name="link_psychotic_depression">
+        <a href='http://www.webmd.com/depression/guide/psychotic-depression'>http://www.webmd.com/depression/guide/psychotic-depression</a>
+    </string>
+    <string name="link_depression_types">
+        <a href='http://www.webmd.com/depression/guide/depression-symptoms-and-types'>http://www.webmd.com/depression/guide/depression-symptoms-and-types</a>
+    </string>
+    <string name="depression_causes">Researchers have learned that depression is caused by a combination of genetics, biological, psychological, and environmental factors. Some types of depression run in families, as some genetic research shows certain genes may make some people more vulnerable to depression. Depression likely occurs in people because of various environmental factors as well. Some caused and risk factors for depression may include:</string>
+    <string name="detail_causes">
+        <li>Loneliness</li>\n
+        <li>Lack of social support</li>\n
+        <li>Recent stressful life experiences</li>\n
+        <li>Family history of depression</li>\n
+        <li>Marital or relationship problems</li>\n
+        <li>Financial strain</li>\n
+        <li>Early childhood trauma or abuse</li>\n
+        <li>Alcohol or drug abuse</li>\n
+        <li>Unemployment or underemployment</li>\n
+        <li>Health problems or chronic pain</li>\n
+        <li>Trauma</li>\n
+        <li>Loss of a loved one</li>\n
+        <li>Loss in self-identity</li>
+    </string>
+    <string name="causes_of_depression_not_apparent">Often, the causes of depression are not immediately apparent, but working with a trained professional to understand the cause of your depression can help determine the best type of treatment.</string>
+    <string name="link_causes_depression">
+        <a href='http://www.webmd.com/depression/guide/causes-depression'>http://www.webmd.com/depression/guide/causes-depression</a>
+    </string>
+    <string name="treatment_guide">The most effective depression treatment varies from person to person. It is important to talk to your doctor or a mental health professional about the best treatment for you. For some, depression may be caused by an underlying medical condition such as hypothyroidism. For most people, psychotherapy and/or antidepressants are effective methods of treatment. Lifestyle changes are also an important element of recovery. Keep in mind that there are no instant cures, and it might take some time and commitment to recover from depression.</string>
+    <string name="psychotherapy">Psychotherapy</string>
+    <string name="psychotherapy_treatment">Psychotherapy - or "talk therapy" - is an effective treatment for clinical depression and is often the first form of treatment recommended for depression. During psychotherapy, you talk to a licensed and trained mental health professional who helps you work through depression in various ways. This approach teaches you the skills to deal with your depression and help prevent future occurrences of depression as well. Therapy can be given in a variety of formats including individual to find a therapist that you can connect with and trust. In addition, there are several different approaches to therapy. Cognitive-Behavioral Therapy, Acceptance and Commitment Therapy, and Interpersonal Therapy have all been shown to be effective for treating depression, although effectiveness varies from person to person and other therapeutic approaches may work for you as well.</string>
+    <string name="antidepressants">Antidepressants</string>
+    <string name="antidepressant_treatment">Antidepressant treatment is also effective for treating clinical depression. It is more effective for severe cases of depression, and is commonly combined with psychotherapy for an even greater effect. There are many classes of antidepressants, such as SSRIs, SNRIs, or tricyclic antidepressants. Keep in mind that all of these drugs have various side effects and do not have an immediate effect, they take some time to work. If one antidepressant doesn\'t work well, you might try another drug of the same class or a different class of depression medicines altogether. Your doctor might also try changing the dosage. In some cases, your doctor might recommend taking more than one medication for your depression.</string>
+    <string name="brain_stimulation_treatment">When medication and therapy fail to ease the symptoms of clinical depression, there are still additional effective options. Brian stimulation techniques can be used to treat major depression that has not responded to standard treatments. Electorconvulsive therapy (ECT) is the most well-known and proven type of brian stimulation, deep brain stimulation, vagus nerve stimulation, and magnetic seizure therapy.</string>
+    <string name="brain_stimulation">Brain Stimulation</string>
+    <string name="link_treatment">
+        <a href='http://www.webmd.com/depression/psychotherapy-treat-depression'>http://www.webmd.com/depression/psychotherapy-treat-depression</a>
+        <!--<a href='http://www.helpguide.org/mental/medications-depression.htm'>http://www.helpguide.org/mental/medications-depression.htm</a>\n-->
+    </string>
+    <string name="link_treatment2">
+        <a href='http://www.webmd.com/depression/guide/electroconvulsive-therapy'>http://www.webmd.com/depression/guide/electroconvulsive-therapy</a>
+    </string>
+    <string name="add_custom_activity">+ Add custom activity</string>
+    <string name="add_your_own_activities">Add your own activities above or edit existing activites below</string>
+    <string name="lifestyle_change_guide">Lifestyle changes are simple and essential elements of recovery. They can be used on their own, in conjunction with other treatments, or to prevent relapse. The following components have all been proven to lower symptoms of depression.</string>
+    <string name="sunlight">Sunlight</string>
+    <string name="exercise">Exercise</string>
+    <string name="nutrition">Nutrition</string>
+    <string name="sleep">Sleep</string>
+    <string name="social_support">Social Support</string>
+    <string name="life_style_transition">Life style transition</string>
+    <string name="text_view">TextView</string>
+    <string name="image_view">ImageView</string>
+    <string name="line">Line</string>
+    <string name="lack_sunlight_explain">Lack of sunlight can worsen depression or increase the chances of getting depression. If not given enough light exposure, the body\'s biological rhythm can go out of balance, affecting things such as energy, sleep, appetite, and hormones. Therefore, disrupting these regular body rhythms can be bad for mood and trigger depression.</string>
+    <string name="lack_sunlight_explain2">Aim for at least 15 minutes of sunshine a day to keep mood and biological rhythms is sync. For wintertime places with little sun, try getting a <a href='http://amzn.to/2pZ1Pip'>light therapy box</a></string>
+    <string name="supportive_relationships"><u>Supportive Relationships</u></string>
+    <string name="supportive_relationships_guide">Relationships matter. Humans are social creatures, and people who lack a supportive network have a greater risk of becoming depression. Whether preventing depression, overcoming depression, or simply being a happier person, having quality and trusting relationships is an important element of living. When one is in a depressed state, isolation and loneliness can be all the more harmful.</string>
+    <string name="supportive_relationships_contain">
+        <li>Although it may seem intimidating or intrusive, approach trusted friends and family, preferably face to face, and discuss one\'s depression. Ask for support or help. Reaching out is not a sign of weakness, nor should it be considered a burden to others.</li>\n\n
+        <li>Try to keep us with social interactions and activities even if it feels challenging or uncomfortable.</li>\n\n
+        <li>Joining a support group for depression can reduce feelings of loneliness and isolation. Support groups can connect people with others who share similar experiences. One can give and receive advice on how to cope with depression, share stories, and encourage one another in a shared space.</li>
+    </string>
+    <string name="group_therapy"><u>Group Therapy</u></string>
+    <string name="group_therapy_detail">A form of depression treatment known as group therapy may be helpful. Such sessions provide an outlet for depressed persons to share their problems, which in itself a powerful healing tool, as well as a platform for mutual learning from each other\'s experiences. Listening to others\' issues helps put one\'s own problems in perspective too.</string>
+    <string name="exercise_guide_1">Regular exercise has been shown to reduce stress, ward off anxiety and feelings of depression, boost self-esteem, and improve sleep. Exercise can change the brain by increasing the activity level of key chemicals such as dopamine and serotonin as well as key growth hormones. These brain chemicals can then increase endorphins and reduce stress, leading to improvements in depression symptoms. Exercise can even be as effective as antidepressants at increasing energy and mood while decreasing feelings of fatigue.</string>
+    <string name="exercise_include">
+        Moderate physical activity produces risk-free benefits for people with depression or without depression. Some examples of moderate exercise include:\n
+        <li>Biking</li>\n
+        <li>Dancing</li>\n
+        <li>Gardening</li>\n
+        <li>Housework, especially sweeping, mopping, or vacuuming</li>\n
+        <li>Jogging at a moderate pace</li>\n
+        <li>Low-impact aerobics</li>\n
+        <li>Playing tennis</li>\n
+        <li>Swimming</li>\n
+        <li>Walking</li>\n
+        <li>Yard work, especially mowing or raking</li>\n
+        <li>Yoga</li>
+    </string>
+    <string name="key_start_exercise">The key is to start small and pick enjoyable activities so that one is more likely to keep up with them. To stay motivated, try exercising with supportive group, close friend, or partner. In doing so one can benefit from both physical activity and social support.</string>
+    <string name="exercise_link">http://www.mayoclinic.org/diseases-conditions/depression/in-depth/depression-and-exercise/art-20046495</string>
+    <string name="nutrition_detail">Getting proper nutrition is important for recovering from depression, especially because depression can affect appetite. It has been shown that low levels of the nutrients zinc, Vitamin B6, Vitamin B12, omega-3 fatty acids, and folate can lead to an increased risk of depression. Omega-3 fatty acids, in particular, have been shown to be extremely beneficial in keeping the brain functioning properly and decreasing the risk for depression and other forms of mental illnesses.</string>
+    <string name="nutrition_contains">
+        In addition, people who are clinically depressed often do not eat a balanced diet. Thus, poor nutrition leads to depressive symptoms and depressive symptoms lead to poorer nutrition, resulting in an unhealthy cycle. Tip for having a healthy and mood-boosting diet includes:\n
+        <li>Dietary omega-3 fatty acids. Omega-3 fatty acids are found in fish, nuts, seeds, and leafy vegetables. Try taking omega-3 supplements as well.</li>\n
+        <li>B vitamins. Lack of B vitamins such as folic acid and Vitamin B-12 can increase risk for depression. Taking vitamin supplements or eating foods such as citrus fruits, leafy greens, chicken, and eggs will increase B vitamin intake.</li>\n
+        <li>Cut down on sugar and refine carbs such as candy and french fries. These "feel good" and "quick fix" foods can often lead to a crash in mood and energy.</li>\n
+        <li>Eat balanced meals. Eating well-rounded meals from all the food groups makes for balanced nutrition and can improve health and mood.</li>\n
+        <li>Do not skip meals. Skipping meals or going too long between meals can increase irritability or tiredness.</li>
+    </string>
+    <string name="nutrition_link_1">http://www.webmd.com/depression/guide/diet-recovery</string>
+    <string name="nutrition_link_2">http://psychcentral.com/lib/can-nutrition-help-fight-or-ward-off-depression/0003150</string>
+    <string name="nutrition_link_3">http://www.foodforthebrain.org/nutrition-solutions/depression/about-depression.aspx</string>
+    <string name="nutrition_link_4">http://depression.about.com/od/fishoil/a/Omega-3-Fatty-Acids-For-Depression.htm</string>
+    <string name="sleep_detail">
+        People with depression commonly experience disturbed sleep patterns, but depression can affect sleep in a variety of ways. Research shows that people with insomnia have a ten times higher risk of developing depression, so it is important to ensure a good night\'s sleep every night. Ensuring the quality and quantity of sleep can not only improve mood and symptoms of depression, but can also help stave off things that can trigger a depressive episode. Some sleep hygiene tips includes:\n
+        <li>Manage your exposure to light. The key to better sleep hygiene is managing your exposure to light. Your brain depends on the level of ambient light or darkness to manage your daily rhythms. Before bedtime, limit your exposure to light as much as possible and while sleeping.</li>\n
+        <li>Exercise. Make sure to get regular exercise and spend some time outdoors in the sunlight every day. This is a good way to set your biologic clock, and it helps maintain a regular sleep-wake cycle. However, try to exercise at least three hours before bed or else the stress hormones released by exercising might keep you up.</li>\n
+        <li>Skip the nap. Avoid afternoon naps, which can lead to nighttime insomnia.</li>\n
+        <li>Limit caffeine and alcohol, especially later in the day. Caffeine is a stimulant and can keep you wide awake, while alcohol can disrupt sleep quality. Alcohol before bedtime will interfere with sleep and it may help you fall asleep, but you are less likely to sleep through the night.</li>\n
+        <li>Get up if you can't sleep. Don't waste time lying in bed looking at your clock. If you find yourself lying awake, the best thing is to get up and do something relaxing until you feel tired.</li>\n
+        <li>Shut off the TV and the phone. Avoid watching television late at night. Most shows in the evening are too stimulating and do not promote good sleep. It's better to read a book or do a relaxing activity in the hours before bed. If you must use your phone, download applications that dim the screen down to very dim levels such as 'Screen Filter.'</li>\n
+        <li>Turn your bedroom into a sleep-inducing environment. Use your bedroom primarily for sleep and try your best to make it a quiet, dark, and cool environment.</li>\n
+        <li>Establish a soothing pre-sleep routine and keep a consistent sleep schedule. Ease your transition from wake time to sleep time with an hour or so of relaxing activities. Take a bath, read a book, or practice relaxation exercises. In addition, sleeping and waking up at the same time every day will help establish a daily rhythm to your brain.</li>\n
+        <li>Practice good sleep hygiene. This includes using your bedroom primarily for sleeping and sticking to a regular sleep schedule. Avoid distractions in your bedroom, like phones, computers, too much light, and too much noise. Make sure your bed is comfortable and that the room temperature is comfortable for sleeping.</li>
+    </string>
+    <string name="sleep_link">http://healthysleep.med.harvard.edu/healthy/getting/overcoming/tips</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

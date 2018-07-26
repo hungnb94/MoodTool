@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.information.guide.lifestyle_change.LifeStyleFragment"
+    tools:targetApi="lollipop">
+
+    <TextView
+        android:id="@+id/tvGuide"
+        style="@style/NormalText"
+        android:paddingEnd="@dimen/_10sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:text="@string/lifestyle_change_guide" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvGuide">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llSunlight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--<LinearLayout-->
+                <!--style="@style/ALCLinearLayout"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:paddingBottom="@dimen/_5sdp"-->
+                <!--android:paddingEnd="@dimen/_10sdp"-->
+                <!--android:paddingStart="@dimen/_10sdp"-->
+                <!--android:paddingTop="@dimen/_5sdp"-->
+                <!--tools:ignore="UseCompoundDrawables">-->
+
+                <LinearLayout
+                    style="@style/ALCLinearLayout"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <TextView
+                        android:id="@+id/tvSunlight"
+                        style="@style/LargeTextInfo"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/sunlight"
+                        android:transitionName="@string/text_view" />
+
+                    <ImageView
+                        android:id="@+id/ivArrowSunlight"
+                        style="@style/SharedElementAnimation"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_arrow_drop_down_grey600_36dp"
+                        android:transitionName="@string/image_view" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/lineSunlight"
+                    style="@style/SharedElementAnimation"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/colorGray"
+                    android:transitionName="@string/line" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llSocialSupport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/llSunlight"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    style="@style/ALCLinearLayout"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <TextView
+                        android:id="@+id/tvSocialSupport"
+                        style="@style/LargeTextInfo"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/social_support"
+                        android:transitionName="@string/text_view" />
+
+                    <ImageView
+                        android:id="@+id/ivArrowSocialSupport"
+                        style="@style/SharedElementAnimation"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_arrow_drop_down_grey600_36dp"
+                        android:transitionName="@string/image_view" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/lineSocialSupport"
+                    style="@style/SharedElementAnimation"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/colorGray"
+                    android:transitionName="@string/line" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llExercise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/llSocialSupport"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    style="@style/ALCLinearLayout"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <TextView
+                        android:id="@+id/tvExercise"
+                        style="@style/LargeTextInfo"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/exercise"
+                        android:transitionName="@string/text_view" />
+
+                    <ImageView
+                        android:id="@+id/ivArrowExercise"
+                        style="@style/SharedElementAnimation"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_arrow_drop_down_grey600_36dp"
+                        android:transitionName="@string/image_view" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/lineExercise"
+                    style="@style/SharedElementAnimation"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/colorGray"
+                    android:transitionName="@string/line" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llNutrition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/llExercise"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    style="@style/ALCLinearLayout"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <TextView
+                        android:id="@+id/tvNutrition"
+                        style="@style/LargeTextInfo"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/nutrition"
+                        android:transitionName="@string/text_view" />
+
+                    <ImageView
+                        android:id="@+id/ivArrowNutrition"
+                        style="@style/SharedElementAnimation"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_arrow_drop_down_grey600_36dp"
+                        android:transitionName="@string/image_view" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/lineNutrition"
+                    style="@style/SharedElementAnimation"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/colorGray"
+                    android:transitionName="@string/line" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llSleep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/llNutrition"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    style="@style/ALCLinearLayout"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <TextView
+                        android:id="@+id/tvSleep"
+                        style="@style/LargeTextInfo"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/sleep"
+                        android:transitionName="@string/text_view" />
+
+                    <ImageView
+                        android:id="@+id/ivArrowSleep"
+                        style="@style/SharedElementAnimation"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_arrow_drop_down_grey600_36dp"
+                        android:transitionName="@string/image_view" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/lineSleep"
+                    style="@style/SharedElementAnimation"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/colorGray"
+                    android:transitionName="@string/line" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

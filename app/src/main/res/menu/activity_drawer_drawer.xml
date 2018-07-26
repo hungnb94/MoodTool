@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/largemainiconwhite"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_information"
+            android:icon="@drawable/largeitransparent"
+            android:title="@string/information" />
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/largedepressiontesttransparent"
+            android:title="@string/test" />
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/largevidstransparent"
+            android:title="@string/videos" />
+        <item
+            android:id="@+id/nav_thought_diary"
+            android:icon="@drawable/largenotebooktransparent"
+            android:title="@string/thought_diary" />
+        <item
+            android:id="@+id/nav_activities"
+            android:icon="@drawable/largejumptransparent"
+            android:title="@string/activities" />
+        <item
+            android:id="@+id/nav_safety_plan"
+            android:icon="@drawable/largecrosstransparent"
+            android:title="@string/safety_plan" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="@string/setting" />
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

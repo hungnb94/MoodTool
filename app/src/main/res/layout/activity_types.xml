@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.information.info.TypesActivity">
+
+    <include
+        layout="@layout/app_bar_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/NormalText"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:text="@string/depressive_disorder_various" />
+
+            <!--Major_depressive_disorder-->
+            <TextView
+                style="@style/LargeTextInfo"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/major_depressive_disorder" />
+
+            <TextView
+                style="@style/NormalText"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:text="@string/major_depressive_is" />
+
+            <TextView
+                style="@style/NormalText"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:text="@string/major_depressive_symptoms" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@color/colorGray" />
+
+            <!--Seasonal affective disorder-->
+            <TextView
+                style="@style/LargeTextInfo"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/seasonal_affective_disorder" />
+
+            <TextView
+                style="@style/NormalText"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:text="@string/seasonal_affective_disorder_is" />
+
+            <TextView
+                android:id="@+id/tvLinkSeasonalDisorder"
+                style="@style/NormalText"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/link_seasonal_affective_disorder"
+                android:textColor="@color/colorPinkLink" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/colorGray" />
+
+            <!--Persistent depressive disorder-->
+            <TextView
+                style="@style/LargeTextInfo"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/persistent_depressive_disorder" />
+
+            <TextView
+                style="@style/NormalText"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:text="@string/persistent_depressive_detail" />
+
+            <TextView
+                android:id="@+id/tvLinkPersistentDisorder"
+                style="@style/NormalText"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/link_persistent_depressive"
+                android:textColor="@color/colorPinkLink" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/colorGray" />
+
+            <!--Bipolar Disorder-->
+            <TextView
+                style="@style/LargeTextInfo"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/bipolar_disorder" />
+
+            <TextView
+                style="@style/NormalText"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:text="@string/bipolar_disorder_detail" />
+
+            <TextView
+                style="@style/NormalText"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:text="@string/bipolar_disorder_symtoms" />
+
+            <TextView
+                style="@style/NormalText"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:text="@string/addition_info_bipolar_disorder" />
+
+            <TextView
+                android:id="@+id/tvLinkBipolarDisorder"
+                style="@style/NormalText"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/link_bipolar_disorder"
+                android:textColor="@color/colorPinkLink" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@color/colorGray" />
+
+            <!--Postpartum Depression-->
+            <TextView
+                style="@style/LargeTextInfo"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/postpartum_depression" />
+
+            <TextView
+                style="@style/NormalText"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:text="@string/postpartum_depression_detail" />
+
+            <TextView
+                android:id="@+id/tvLinkPostpartumDepression"
+                style="@style/NormalText"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/link_postpartum_depression"
+                android:textColor="@color/colorPinkLink" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/colorGray" />
+
+            <!--Atypical Depression-->
+            <TextView
+                style="@style/LargeTextInfo"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/atypical_depression" />
+
+            <TextView
+                style="@style/NormalText"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:text="@string/atypical_depression_detail" />
+
+            <TextView
+                android:id="@+id/tvLinkAtypicalDepression"
+                style="@style/NormalText"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/link_atypical_depression"
+                android:textColor="@color/colorPinkLink" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/colorGray" />
+
+            <!--Psychotic_depression-->
+            <TextView
+                style="@style/LargeTextInfo"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/psychotic_depression" />
+
+            <TextView
+                style="@style/NormalText"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:text="@string/psychotic_depression_detail" />
+
+            <TextView
+                android:id="@+id/tvLinkPsychoticDepression"
+                style="@style/NormalText"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/link_psychotic_depression"
+                android:textColor="@color/colorPinkLink" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/colorGray" />
+
+            <!--Symptoms and types-->
+            <TextView
+                style="@style/NormalText"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:text="@string/click_link_for_more_detail" />
+
+            <TextView
+                android:id="@+id/tvLinkDepressionTypes"
+                style="@style/NormalText"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/link_depression_types"
+                android:textColor="@color/colorPinkLink" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="LargeTextInfo">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="SharedElementAnimation">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

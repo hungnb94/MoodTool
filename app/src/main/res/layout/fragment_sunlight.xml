@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.information.guide.lifestyle_change.SunlightFragment">
+
+    <LinearLayout
+        android:id="@+id/llSunlight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical"
+        tools:targetApi="lollipop">
+
+        <LinearLayout
+            style="@style/ALCLinearLayout"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                style="@style/LargeTextInfo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/sunlight"
+                android:transitionName="@string/text_view" />
+
+            <ImageView
+                android:id="@+id/ivArrowSunlight"
+                style="@style/SharedElementAnimation"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/ic_arrow_drop_up_grey600_36dp"
+                android:transitionName="@string/image_view" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/SharedElementAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/colorGray"
+            android:transitionName="@string/line" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/NormalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lack_sunlight_explain" />
+
+        <TextView
+            android:id="@+id/tvLink"
+            style="@style/NormalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/lack_sunlight_explain2" />
+
+    </LinearLayout>
+
+</LinearLayout>

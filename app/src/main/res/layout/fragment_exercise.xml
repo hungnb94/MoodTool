@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.information.guide.lifestyle_change.ExerciseFragment">
+
+    <LinearLayout
+        android:id="@+id/llExercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:targetApi="lollipop">
+
+        <LinearLayout
+            style="@style/ALCLinearLayout"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:id="@+id/tvExercise"
+                style="@style/LargeTextInfo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/exercise"
+                android:transitionName="@string/text_view" />
+
+            <ImageView
+                android:id="@+id/ivArrowExercise"
+                style="@style/SharedElementAnimation"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/ic_arrow_drop_down_grey600_36dp"
+                android:transitionName="@string/image_view" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/lineExercise"
+            style="@style/SharedElementAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/colorGray"
+            android:transitionName="@string/line" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
+
+                <TextView
+                    style="@style/NormalText"
+                    android:text="@string/exercise_guide_1" />
+
+                <TextView
+                    style="@style/NormalText"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/exercise_include" />
+
+                <TextView
+                    style="@style/NormalText"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/key_start_exercise" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/colorLightGray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/NormalText"
+                    android:text="@string/click_link_for_more_detail" />
+
+                <TextView
+                    android:id="@+id/tvLink"
+                    android:autoLink="web"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/exercise_link"
+                    android:textColor="@color/colorPinkLink" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
