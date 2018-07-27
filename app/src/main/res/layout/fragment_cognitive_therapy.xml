@@ -1,14 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ui.information.guide.cognitive_therapy.CognitiveTherapyFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_margin="@dimen/_10sdp"
+        style="@style/NormalText"
+        android:text="@string/cognitive_therapy_detail" />
 
-</FrameLayout>
+    <LinearLayout
+        android:id="@+id/llCognitiveTherapy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:targetApi="lollipop"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/ALCLinearLayout"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:id="@+id/tvCognitiveTherapy"
+                style="@style/LargeTextInfo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/cognitive_therapy"
+                android:transitionName="@string/text_view" />
+
+            <ImageView
+                android:id="@+id/ivArrowCognitiveTherapy"
+                style="@style/SharedElementAnimation"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/ic_arrow_drop_down_grey600_36dp"
+                android:transitionName="@string/image_view" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/lineCognitiveTherapy"
+            style="@style/SharedElementAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/colorGray"
+            android:transitionName="@string/line" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llChallengeThoughts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:targetApi="lollipop"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/ALCLinearLayout"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:id="@+id/tvChallengeThoughts"
+                style="@style/LargeTextInfo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/challenge_thoughts"
+                android:transitionName="@string/text_view" />
+
+            <ImageView
+                android:id="@+id/ivArrowChallengeThoughts"
+                style="@style/SharedElementAnimation"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/ic_arrow_drop_down_grey600_36dp"
+                android:transitionName="@string/image_view" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/lineChallengeThoughts"
+            style="@style/SharedElementAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/colorGray"
+            android:transitionName="@string/line" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCognitiveDistortions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:targetApi="lollipop"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/ALCLinearLayout"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:id="@+id/tvCognitiveDistortions"
+                style="@style/LargeTextInfo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/cognitive_distortions"
+                android:transitionName="@string/text_view" />
+
+            <ImageView
+                android:id="@+id/ivArrowCognitiveDistortions"
+                style="@style/SharedElementAnimation"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/ic_arrow_drop_down_grey600_36dp"
+                android:transitionName="@string/image_view" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/lineCognitiveDistortions"
+            style="@style/SharedElementAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/colorGray"
+            android:transitionName="@string/line" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llThoughtDiary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:targetApi="lollipop"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/ALCLinearLayout"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:id="@+id/tvThoughtDiary"
+                style="@style/LargeTextInfo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/thought_diary"
+                android:transitionName="@string/text_view" />
+
+            <ImageView
+                android:id="@+id/ivArrowThoughtDiary"
+                style="@style/SharedElementAnimation"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/ic_arrow_drop_down_grey600_36dp"
+                android:transitionName="@string/image_view" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/lineThoughtDiary"
+            style="@style/SharedElementAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/colorGray"
+            android:transitionName="@string/line" />
+
+    </LinearLayout>
+
+</LinearLayout>

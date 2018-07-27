@@ -11,7 +11,7 @@ import android.view.View;
 
 import com.hb.moodtool.R;
 import com.hb.moodtool.ui.information.info.InfoChildFragment;
-import com.hb.moodtool.ui.information.info.InfoGuideFragment;
+import com.hb.moodtool.ui.information.guide.InfoGuideFragment;
 import com.hb.moodtool.ui.information.info.InfoResourcesFragment;
 
 public class InformationPagerAdapter extends FragmentStatePagerAdapter {

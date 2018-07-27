@@ -6,45 +6,6 @@
     android:orientation="vertical"
     tools:context=".ui.information.guide.lifestyle_change.SocialSupportFragment">
 
-    <LinearLayout
-        android:id="@+id/llSocialSupport"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        tools:targetApi="lollipop">
-
-        <LinearLayout
-            style="@style/ALCLinearLayout"
-            tools:ignore="UseCompoundDrawables">
-
-            <TextView
-                android:id="@+id/tvSocialSupport"
-                style="@style/LargeTextInfo"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:text="@string/social_support"
-                android:transitionName="@string/text_view" />
-
-            <ImageView
-                android:id="@+id/ivArrowSocialSupport"
-                style="@style/SharedElementAnimation"
-                android:layout_width="@dimen/_30sdp"
-                android:layout_height="@dimen/_30sdp"
-                android:src="@drawable/ic_arrow_drop_down_grey600_36dp"
-                android:transitionName="@string/image_view" />
-
-        </LinearLayout>
-
-        <View
-            android:id="@+id/lineSocialSupport"
-            style="@style/SharedElementAnimation"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/_1sdp"
-            android:background="@color/colorGray"
-            android:transitionName="@string/line" />
-
-    </LinearLayout>
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -52,42 +13,88 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="@dimen/_10sdp">
+            android:orientation="vertical">
 
-            <TextView
+            <LinearLayout
+                android:id="@+id/llSocialSupport"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="@string/supportive_relationships"
-                android:textColor="@color/colorBlack"
-                android:textSize="@dimen/_16ssp"
-                android:textStyle="bold" />
+                android:orientation="vertical"
+                tools:targetApi="lollipop">
 
-            <TextView
-                style="@style/NormalText"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:text="@string/supportive_relationships_guide" />
+                <LinearLayout
+                    style="@style/ALCLinearLayout"
+                    tools:ignore="UseCompoundDrawables">
 
-            <TextView
-                style="@style/NormalText"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:text="@string/supportive_relationships_contain" />
+                    <TextView
+                        android:id="@+id/tvSocialSupport"
+                        style="@style/LargeTextInfo"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/social_support"
+                        android:transitionName="@string/text_view" />
 
-            <TextView
-                android:layout_marginTop="@dimen/_10sdp"
+                    <ImageView
+                        android:id="@+id/ivArrowSocialSupport"
+                        style="@style/SharedElementAnimation"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_arrow_drop_down_grey600_36dp"
+                        android:transitionName="@string/image_view" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/lineSocialSupport"
+                    style="@style/SharedElementAnimation"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/colorGray"
+                    android:transitionName="@string/line" />
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="@string/group_therapy"
-                android:textColor="@color/colorBlack"
-                android:textSize="@dimen/_16ssp"
-                android:textStyle="bold" />
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
 
-            <TextView
-                android:layout_marginTop="@dimen/_5sdp"
-                style="@style/NormalText"
-                android:text="@string/group_therapy_detail"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/supportive_relationships"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_16ssp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/NormalText"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/supportive_relationships_guide" />
+
+                <TextView
+                    style="@style/NormalText"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/supportive_relationships_contain" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:text="@string/group_therapy"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_16ssp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/NormalText"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="@string/group_therapy_detail" />
+
+            </LinearLayout>
 
         </LinearLayout>
 

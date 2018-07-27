@@ -193,7 +193,7 @@
         <a href='http://www.webmd.com/depression/guide/electroconvulsive-therapy'>http://www.webmd.com/depression/guide/electroconvulsive-therapy</a>
     </string>
     <string name="add_custom_activity">+ Add custom activity</string>
-    <string name="add_your_own_activities">Add your own activities above or edit existing activites below</string>
+    <string name="add_your_own_activities">Add your own activities above or edit existing activities below</string>
     <string name="lifestyle_change_guide">Lifestyle changes are simple and essential elements of recovery. They can be used on their own, in conjunction with other treatments, or to prevent relapse. The following components have all been proven to lower symptoms of depression.</string>
     <string name="sunlight">Sunlight</string>
     <string name="exercise">Exercise</string>
@@ -258,9 +258,103 @@
         <li>Practice good sleep hygiene. This includes using your bedroom primarily for sleeping and sticking to a regular sleep schedule. Avoid distractions in your bedroom, like phones, computers, too much light, and too much noise. Make sure your bed is comfortable and that the room temperature is comfortable for sleeping.</li>
     </string>
     <string name="sleep_link">http://healthysleep.med.harvard.edu/healthy/getting/overcoming/tips</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cognitive_therapy">Cognitive Therapy</string>
+    <string name="cognitive_therapy_detail">CBT is a problem-focused and action-oriented therapy where you use logic to analyze and challenge your negative thoughts to improve your mood. It\'s been proven to be effective in reducing symptoms of depression and anxiety and is generally considered the most common therapy for depression.</string>
+    <string name="challenge_thoughts">Challenge Thoughts</string>
+    <string name="cognitive_distortions">Cognitive Distortions</string>
+    <string name="cognitive_detail_1">The basic theory behind CBT is that depression is not an emotional disorder, but rather a disorder caused by thoughts. Distorted negative thinking caused the bad moods that accompany depression. Often, these thoughts are so innate that they are almost \'automatic thoughts\' that occur in your mind without any effort. For example, imagine that your friend turns you down for dinner. You may think to yourself, "She does not want to have dinner with me because she hates me. In fact, nobody likes me." This negative interpretation would elicit a bad mood. Alternatively, you may think, "She has been really busy lately. Just because she is too busy for dinner does not mean that she hates me.\" These different interpretations result in vasty different emotional responses.</string>
+    <string name="cognitive_detail_2">Cognitive therapy aims to teach you to almost become your own therapist by challenging your negative thoughts. After you have mastered this skill, whenever you feel depressed, you will be able to identify the negative thought that is causing your negative mood, challenge your thought by identifying the distortions within it, and restructure your thought to improve your mood.</string>
+    <string name="cognitive_detail_3">Cognitive-behavioral therapy is usually performed with a therapist that can work with you to teach you these skills and identify/challenge your personal core beliefs over several weeks.</string>
+    <string name="cognitive_detail_4">A classic book that explains CBT and how to apply it to your own life is <a href='http://amzn.to/2qY7ycC'>Feeling Good</a> by David Burns.</string>
+    <string name="challenge_thoughts_detail_1">The central skill of cognitive therapy is to challenge your negative thoughts that are causing your depressed mood.</string>
+    <string name="challenge_thoughts_detail_2">First, you must become aware of your negative thoughts. Recognize that feelings are not facts, but rather the result of your thoughts. These thoughts are often automatic, distorted, but plausible. Typically, you simply accept these thoughts as true. Whenever you are feeling bad, try and remember when your mood changed for the worse and recall what was running through your mind at that moment.</string>
+    <string name="challenge_thoughts_detail_3">After identifying the thought, it might help to write it down. Then, challenge it with logic. Often these automatic thoughts are illogical or have flawed assumptions within them. Often, there are cognitive distortions within your thoughts, and a list of common cognitive distortions will be covered in the next section.</string>
+    <string name="challenge_thoughts_detail_4">Finally after challenging the thought, write down a more realistic and balanced response.</string>
+    <string name="cognitive_distortions_detail">Cognitive distortions consist of irrational logic in our thinking. These distortions typically reinforce negative thinking or emotions. They typically occur automatically and we simply accept them as true. However, if we step back from our negative thoughts, we can analyze them for the presence of cognitive distortions.</string>
+    <string name="all_or_nothing"><u>All-or-nothing thinking</u></string>
+    <string name="all_or_nothing_detail">Thinking in black or white, thinking in extremes. Using words such as \"always\" or \"never\" to describe yourself or situations.</string>
+    <string name="should_must_statements"><u>Should / must statements</u></string>
+    <string name="should_must_statements_detail">Thinking that you are obligated to do things; using \"should\" or \"must\" statements.</string>
+    <string name="should_must_statements_ex">Ex. I should never feel angry. I should feel very guilty.</string>
+    <string name="labeling"><u>Labeling</u></string>
+    <string name="labeling_detail">Atributing a person\'s behaviors to his/her character or personality (\"this is who she is all the time\") rather than thinking it\'s temporary or just for one event (\"she just made a mistake\")</string>
+    <string name="labeling_ex">Ex. That driver honked at me at the intersection so he must be an angry person in general.</string>
+    <string name="all_or_nothing_ex">Ex. No one likes me; I am always a bother to other people; I never win anything.</string>
+    <string name="overgeneralization"><u>Overgeneralization</u></string>
+    <string name="overgeneralization_detail">Making a very broad conclusion based on one event; taking one situation and expecting the same result to happen in all future situations.</string>
+    <string name="overgeneralization_ex">Ex. She cannot meet me for lunch today. This means she isn\'t reliable at all.</string>
+    <string name="filtering_out_positive"><u>Filtering out the positive</u></string>
+    <string name="filtering_out_positive_detail">Only focusing on the negative aspects of an experience while ignoring the positives. Focusing only on information that confirms what you already believe in.</string>
+    <string name="filtering_out_positive_ex">Ex. He didn\'t like the chicken I made for dinner but loved the vegetables and dessert. I feel that my cooking skills are terrible because the chicken was bad.</string>
+    <string name="jumping_conclusions"><u>Jumping to conclusions</u></string>
+    <string name="jumping_conclusions_detail">Reaching a hasty conclusion or judging something without having enough facts.</string>
+    <string name="jumping_conclusions_ex">Ex. She came home with a frown on her face, so she must be angry with me.</string>
+    <string name="mind_reading"><u>Mind reading</u></string>
+    <string name="mind_reading_detail">Assuming or inferring another person\'s thoughts or expecting for the worst possible scenario without actually confirming with the person or having solid evidence.</string>
+    <string name="mind_reading_ex">Ex. My friend did not wave back at me when I waved to her from across the street. She must be angry with me right now.</string>
+    <string name="fortune_telling"><u>Fortune-telling</u></string>
+    <string name="fortune_telling_detail">Predicting a negative outcome before the event happens</string>
+    <string name="fortune_telling_ex">Ex. The boss will definitely not like my presentation; My boyfriend will definitely hate my new haircut.</string>
+    <string name="magnification_negative"><u>Magnification of the negative</u></string>
+    <string name="magnification_negative_detail">Putting greater emphasis on possible failures, weaknesses, or threats.</string>
+    <string name="magnification_negative_ex">Ex. During my class presentation I made a couple of mistakes while talking. My teacher and peers complimented me on a good presentation afterwards, but I continued to feel embarrassed about the things I messed up on.</string>
+    <string name="minimization_positive"><u>Minimization of the positive</u></string>
+    <string name="minimization_positive_detail">Putting lesser emphasis on possible success, strength or opportunity.</string>
+    <string name="minimization_positive_ex">Ex. When someone compliments me, instead of feeling proud of my achievement I discount their compliments as simply being polite.</string>
+    <string name="catastrophizing"><u>Catastrophizing</u></string>
+    <string name="catastrophizing_detail">Over-exaggerating; believing in the worse case scenario or thinking something is extremely unbearable or impossible when it actually isn\'t that bad.</string>
+    <string name="catastrophizing_ex">Ex. I knocked over that glass bottle and I feel mortified that everyone who is staring at me must think that I am a clumsy and useless person.</string>
+    <string name="emotional_reasoning"><u>Emotional reasoning</u></string>
+    <string name="emotional_reasoning_detail">Believing that if you feel that something is true it must be true.</string>
+    <string name="emotional_reasoning_ex">Ex. I feel so dumb and useless, therefore I must be dumb and useless.</string>
+    <string name="self_blaming"><u>Self-blaming</u></string>
+    <string name="self_blaming_detail">Blaming yourself or thinking you\'re personally responsible for a situation that you actually have little control over.</string>
+    <string name="self_blaming_ex">Ex. I was late to work because of a road accident, but I should have known that in advance.</string>
+    <string name="other_blaming"><u>Other-blaming</u></string>
+    <string name="other_blaming_detail">Blaming others or holding other people responsible for things done to you that they may have little control over.</string>
+    <string name="other_blaming_ex">Ex. She should have been more careful when she knocked over that glass bottle.</string>
+    <string name="thought_diary_guide_detail">A thought diary is included within this application. The instructions on using it are as follows.</string>
+    <string name="thought_diary_do"><u>What does a thought diary do?</u></string>
+    <string name="thought_diary_do_detail_1">Do you feel like you\'re stressed, anxious, sad, frustrated, or unmotivated? The centerpiece of cognitive-behavioral therapy is changing your emotions by identifying negative and distorted thinking patterns. Thought Diary aims to help you take a step back from your thoughts and identify negative and distorted thinking patterns.</string>
+    <string name="thought_diary_do_detail_2">After completing a thought record, your distress levels should go down. Over repeated use, you will likely find that you will learn to think differently about the situations you find yourself in, significantly increasing your everyday mood. Don\'t be discouraged if you do not feel much better quickly after making an entry. When you become better at using Thought Diary over time, you will improve your skills in dealing with negative emotions.</string>
+    <string name="when_use_diary"><u>When do I use this thought diary?</u></string>
+    <string name="when_use_diary_detail">Use this thought diary when you are feeling stressed, anxious, or depressed about something that happened in your life. Use this to record a situation, experience, thought, or feeling that makes you unhappy.</string>
+    <string name="how_to_create_entry"><u>How to create an entry?</u></string>
+    <string name="how_to_create_entry_1">1. Describe the event and identify your emotions</string>
+    <string name="how_to_create_entry_2">2. Write down your negative thoughts</string>
+    <string name="how_to_create_entry_3">3. Examine and challenge your negative thoughts</string>
+    <string name="how_to_create_entry_4">4. Create an alternative interpretation of the situation</string>
+    <string name="title">Title</string>
+    <string name="how_to_write_title">Enter a short title that summarizes the situation.</string>
+    <string name="emotions">Emotions</string>
+    <string name="how_to_write_emotions">Choose the emotions that you felt in the situation.</string>
+    <string name="distress">Distress</string>
+    <string name="how_to_write_distress">Rate the level of distress you felt.</string>
+    <string name="how_to_write_situation">Describe the situation in detail so that you can review and remember it later.</string>
+    <string name="negative_thoughts">Negative Thoughts</string>
+    <string name="how_to_write_negative_thoughts">Enter the negative thoughts you had about the situation and why it distressed you. What did you initially feel? How did you first interpret the situation?</string>
+    <string name="how_to_write_cognitive_distortions">Choose some common cognitive distortions that you can find within your negative thoughts.</string>
+    <string name="challenge">Challenge</string>
+    <string name="how_to_write_challenge">Weigh the evidence in favor of and against your interpretation of the situation. Challenge your negative thoughts and the distortions within them.</string>
+    <string name="alternative_thoughts">Alternative Thoughts</string>
+    <string name="how_to_write_alternative_thoughts">Having challenged your initial negative thoughts, write an alternative interpretation or response to the situation.</string>
+    <string name="emotions_ex">
+        Sad\n
+        Angry
+    </string>
+    <string name="cognitive_distortions_ex">
+        Filtering out the positive\n
+        Magnification of the negative\n
+        Self-blaming
+    </string>
+    <string name="sample_diary_entry">Sample Diary Entry</string>
+    <string name="title_ex">Made a mistake at work</string>
+    <string name="distress_ex">8 - Severe Distress</string>
+    <string name="situation_ex">I made a mistake at work today and others had to come help me fix it.</string>
+    <string name="negative_thoughts_ex">I was angry at myself for making such a simple and stupid mistake. I felf helpless that I could not fix the problem by myself and useless when I had to ask others to help. I am reminded of my past failures and thinking about them makes me feel like a failure.</string>
+    <string name="challenge_ex">I am being to harsh on myself. I know I make mistakes, but I am good at what I do. My coworkers appreciate my work ethic and are willing to help me fix things. Just because I am not perfect doesn\'t mean that I am a failure.</string>
+    <string name="ex_distress">2 - Mild Distress</string>
+    <string name="alternative_thoughts_ex">Just because I make a mistake doesn\'t mean that I am a failure at everything; my mistakes do not define me. I am successful in many ways. This event was just a learning opportunity. Dwelling on the negatives will not make me better.</string>
 
 
 </resources>

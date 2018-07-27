@@ -1,21 +1,18 @@
-package com.hb.moodtool.ui.information.info;
+package com.hb.moodtool.ui.information.guide.cognitive_therapy;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.hb.moodtool.R;
-import com.hb.moodtool.ui.information.guide.lifestyle_change.LifestyleChangeActivity;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.Unbinder;
 
-public class InfoGuideFragment extends Fragment {
+public class CognitiveDistortionsFragment extends Fragment {
     Unbinder unbinder;
 
     @Override
@@ -24,12 +21,11 @@ public class InfoGuideFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_info_guide, container, false);
+        View view = inflater.inflate(R.layout.fragment_cognitive_distortions, container, false);
         unbinder = ButterKnife.bind(this, view);
-
         return view;
     }
 
@@ -39,10 +35,11 @@ public class InfoGuideFragment extends Fragment {
         unbinder.unbind();
     }
 
-    @OnClick(R.id.llLSChanges)
-    void clickLifeStyleChanges(){
-        Intent intent = new Intent(getContext(), LifestyleChangeActivity.class);
-        startActivity(intent);
+    @OnClick(R.id.llCognitiveDistortions)
+    void clickBack() {
+        if (getActivity() != null && getActivity().getSupportFragmentManager() != null) {
+            getActivity().getSupportFragmentManager().popBackStack();
+        }
     }
 
 }

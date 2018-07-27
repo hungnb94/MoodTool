@@ -21,13 +21,6 @@ import butterknife.Unbinder;
 public class LifeStyleFragment extends Fragment {
     private Unbinder unbinder;
 
-//    private static final int SHOW_ALL = 0;
-//    private static final int SHOW_SUNLIGHT = 1;
-//    private static final int SHOW_SOCIAL_SUPPORT = 2;
-//    private static final int SHOW_EXERCISE = 3;
-
-//    private int nShowState = 0;
-
     //Sunlight
     @BindView(R.id.tvSunlight)
     TextView tvSunlight;

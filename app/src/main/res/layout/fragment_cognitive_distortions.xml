@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.information.guide.cognitive_therapy.CognitiveDistortionsFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:id="@+id/llCognitiveDistortions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:targetApi="lollipop"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/ALCLinearLayout"
+                tools:ignore="UseCompoundDrawables">
+
+                <TextView
+                    android:id="@+id/tvCognitiveDistortions"
+                    style="@style/LargeTextInfo"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/cognitive_distortions"
+                    android:transitionName="@string/text_view" />
+
+                <ImageView
+                    android:id="@+id/ivArrowCognitiveDistortions"
+                    style="@style/SharedElementAnimation"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:src="@drawable/ic_arrow_drop_down_grey600_36dp"
+                    android:transitionName="@string/image_view" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/lineCognitiveDistortions"
+                style="@style/SharedElementAnimation"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/colorGray"
+                android:transitionName="@string/line" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/cognitive_distortions_detail"
+                style="@style/NormalText" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/all_or_nothing"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/all_or_nothing_detail"
+                style="@style/NormalText" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textColor="@color/colorGray"
+                android:text="@string/all_or_nothing_ex"
+                style="@style/NormalText" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/overgeneralization"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/overgeneralization_detail"
+                style="@style/NormalText" />
+
+            <TextView
+                android:textColor="@color/colorGray"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/overgeneralization_ex"
+                style="@style/NormalText" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/filtering_out_positive"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/filtering_out_positive_detail"
+                style="@style/NormalText" />
+
+            <TextView
+                android:textColor="@color/colorGray"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/filtering_out_positive_ex"
+                style="@style/NormalText" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/jumping_conclusions"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/jumping_conclusions_detail"
+                style="@style/NormalText" />
+
+            <TextView
+                android:textColor="@color/colorGray"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/jumping_conclusions_ex"
+                style="@style/NormalText" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/mind_reading"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/mind_reading_detail"
+                style="@style/NormalText" />
+
+            <TextView
+                android:textColor="@color/colorGray"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/mind_reading_ex"
+                style="@style/NormalText" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/fortune_telling"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/fortune_telling_detail"
+                style="@style/NormalText" />
+
+            <TextView
+                android:textColor="@color/colorGray"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/fortune_telling_ex"
+                style="@style/NormalText" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/magnification_negative"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/magnification_negative_detail"
+                style="@style/NormalText" />
+
+            <TextView
+                android:textColor="@color/colorGray"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/magnification_negative_ex"
+                style="@style/NormalText" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/minimization_positive"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/minimization_positive_detail"
+                style="@style/NormalText" />
+
+            <TextView
+                android:textColor="@color/colorGray"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/minimization_positive_ex"
+                style="@style/NormalText" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/catastrophizing"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/catastrophizing_detail"
+                style="@style/NormalText" />
+
+            <TextView
+                android:textColor="@color/colorGray"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/catastrophizing_ex"
+                style="@style/NormalText" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/emotional_reasoning"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/emotional_reasoning_detail"
+                style="@style/NormalText" />
+
+            <TextView
+                android:textColor="@color/colorGray"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/emotional_reasoning_ex"
+                style="@style/NormalText" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/should_must_statements"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/should_must_statements_detail"
+                style="@style/NormalText" />
+
+            <TextView
+                android:textColor="@color/colorGray"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/should_must_statements_ex"
+                style="@style/NormalText" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/labeling"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/labeling_detail"
+                style="@style/NormalText" />
+
+            <TextView
+                android:textColor="@color/colorGray"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/labeling_ex"
+                style="@style/NormalText" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/self_blaming"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/self_blaming_detail"
+                style="@style/NormalText" />
+
+            <TextView
+                android:textColor="@color/colorGray"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/self_blaming_ex"
+                style="@style/NormalText" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/other_blaming"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/other_blaming_detail"
+                style="@style/NormalText" />
+
+            <TextView
+                android:textColor="@color/colorGray"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/other_blaming_ex"
+                style="@style/NormalText" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

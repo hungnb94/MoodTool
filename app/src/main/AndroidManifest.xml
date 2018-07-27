@@ -30,25 +30,51 @@
         <activity
             android:name=".ui.setting.SettingActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".ui.about.AboutActivity" />
+        <activity
+            android:name=".ui.about.AboutActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.drawer.DrawerActivity"
             android:label="@string/title_activity_drawer"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ui.test.TestActivity" />
-        <activity android:name=".ui.test.TestResultActivity" />
-        <activity android:name=".ui.test.TestSettingActivity" />
+        <activity
+            android:name=".ui.test.TestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.test.TestResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.test.TestSettingActivity"
+            android:screenOrientation="portrait" />
         <activity android:name=".ui.test.TestHistoryActivity" />
-        <activity android:name=".ui.videos.VideosActivity" />
-        <activity android:name=".ui.edit.EdittingAcitivity" />
-        <activity android:name=".ui.information.info.WhatIsDepressionActivity" />
-        <activity android:name=".ui.information.info.SymptomsActivity" />
-        <activity android:name=".ui.information.info.TypesActivity" />
-        <activity android:name=".ui.information.info.DepressionCausesActivity" />
-        <activity android:name=".ui.information.info.TreatmentsActivity" />
-        <activity android:name=".ui.information.guide.lifestyle_change.LifestyleChangeActivity" />
-        <activity android:name=".ui.information.guide.cognitive_therapy.CognitiveTherapyActivity"></activity>
+        <activity
+            android:name=".ui.videos.VideosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.edit.EdittingAcitivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.information.info.WhatIsDepressionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.information.info.SymptomsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.information.info.TypesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.information.info.DepressionCausesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.information.info.TreatmentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.information.guide.lifestyle_change.LifestyleChangeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.information.guide.cognitive_therapy.CognitiveTherapyActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
