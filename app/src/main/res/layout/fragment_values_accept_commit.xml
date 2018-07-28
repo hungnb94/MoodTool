@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.information.guide.acceptance_commitment.ValuesAcceptCommitFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/llValues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:targetApi="lollipop"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/ALCLinearLayout"
+                tools:ignore="UseCompoundDrawables">
+
+                <TextView
+                    android:id="@+id/tvValues"
+                    style="@style/LargeTextInfo"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/values"
+                    android:transitionName="@string/text_view" />
+
+                <ImageView
+                    android:id="@+id/ivArrowValues"
+                    style="@style/SharedElementAnimation"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:src="@drawable/ic_arrow_drop_down_grey600_36dp"
+                    android:transitionName="@string/image_view" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/lineValues"
+                style="@style/SharedElementAnimation"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/colorGray"
+                android:transitionName="@string/line" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/NormalText"
+                android:text="@string/values_dt_1" />
+
+            <TextView
+                style="@style/NormalText"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="@string/values_dt_2" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
