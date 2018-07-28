@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.hb.moodtool.R;
+import com.hb.moodtool.ui.information.guide.acceptance_commitment.AcceptanceCommitmentActivity;
 import com.hb.moodtool.ui.information.guide.cognitive_therapy.CognitiveTherapyActivity;
 import com.hb.moodtool.ui.information.guide.lifestyle_change.LifestyleChangeActivity;
 
@@ -49,6 +50,12 @@ public class InfoGuideFragment extends Fragment {
     @OnClick(R.id.llCBTherapy)
     void clickCognitiveTherapy(){
         Intent intent = new Intent(getContext(), CognitiveTherapyActivity.class);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.llACTherapy)
+    void clickAcceptmentAndCommitmentTherapy(){
+        Intent intent = new Intent(getContext(), AcceptanceCommitmentActivity.class);
         startActivity(intent);
     }
 

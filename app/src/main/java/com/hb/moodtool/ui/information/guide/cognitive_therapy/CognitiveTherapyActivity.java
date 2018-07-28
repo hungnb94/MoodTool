@@ -10,7 +10,6 @@ import android.view.MenuItem;
 import com.hb.moodtool.R;
 
 public class CognitiveTherapyActivity extends AppCompatActivity {
-    Fragment fragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +28,7 @@ public class CognitiveTherapyActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        fragment = new CognitiveTherapyFragment();
+        Fragment fragment = new CognitiveTherapyFragment();
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.content, fragment)
                 .commit();
