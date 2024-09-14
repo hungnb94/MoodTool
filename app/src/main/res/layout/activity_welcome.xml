@@ -11,19 +11,19 @@
     android:paddingRight="@dimen/_10sdp"
     tools:context=".ui.welcome.WelcomeActivity">
 
-    <android.support.v4.view.ViewPager
+    <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
-        android:id="@+id/dots_indicator"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="@dimen/_10sdp"
-        app:dotsColor="@android:color/white" />
+<!--    <com.tbuonomo.viewpagerdotsindicator.DotsIndicator-->
+<!--        android:id="@+id/dots_indicator"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_above="@id/button"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginBottom="@dimen/_10sdp"-->
+<!--        app:dotsColor="@android:color/white" />-->
 
     <Button
         android:id="@+id/button"

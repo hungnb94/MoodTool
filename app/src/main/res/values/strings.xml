@@ -247,15 +247,15 @@
     <string name="nutrition_link_4">http://depression.about.com/od/fishoil/a/Omega-3-Fatty-Acids-For-Depression.htm</string>
     <string name="sleep_detail">
         People with depression commonly experience disturbed sleep patterns, but depression can affect sleep in a variety of ways. Research shows that people with insomnia have a ten times higher risk of developing depression, so it is important to ensure a good night\'s sleep every night. Ensuring the quality and quantity of sleep can not only improve mood and symptoms of depression, but can also help stave off things that can trigger a depressive episode. Some sleep hygiene tips includes:\n
-        <li>Manage your exposure to light. The key to better sleep hygiene is managing your exposure to light. Your brain depends on the level of ambient light or darkness to manage your daily rhythms. Before bedtime, limit your exposure to light as much as possible and while sleeping.</li>\n
-        <li>Exercise. Make sure to get regular exercise and spend some time outdoors in the sunlight every day. This is a good way to set your biologic clock, and it helps maintain a regular sleep-wake cycle. However, try to exercise at least three hours before bed or else the stress hormones released by exercising might keep you up.</li>\n
-        <li>Skip the nap. Avoid afternoon naps, which can lead to nighttime insomnia.</li>\n
-        <li>Limit caffeine and alcohol, especially later in the day. Caffeine is a stimulant and can keep you wide awake, while alcohol can disrupt sleep quality. Alcohol before bedtime will interfere with sleep and it may help you fall asleep, but you are less likely to sleep through the night.</li>\n
-        <li>Get up if you can't sleep. Don't waste time lying in bed looking at your clock. If you find yourself lying awake, the best thing is to get up and do something relaxing until you feel tired.</li>\n
-        <li>Shut off the TV and the phone. Avoid watching television late at night. Most shows in the evening are too stimulating and do not promote good sleep. It's better to read a book or do a relaxing activity in the hours before bed. If you must use your phone, download applications that dim the screen down to very dim levels such as 'Screen Filter.'</li>\n
-        <li>Turn your bedroom into a sleep-inducing environment. Use your bedroom primarily for sleep and try your best to make it a quiet, dark, and cool environment.</li>\n
-        <li>Establish a soothing pre-sleep routine and keep a consistent sleep schedule. Ease your transition from wake time to sleep time with an hour or so of relaxing activities. Take a bath, read a book, or practice relaxation exercises. In addition, sleeping and waking up at the same time every day will help establish a daily rhythm to your brain.</li>\n
-        <li>Practice good sleep hygiene. This includes using your bedroom primarily for sleeping and sticking to a regular sleep schedule. Avoid distractions in your bedroom, like phones, computers, too much light, and too much noise. Make sure your bed is comfortable and that the room temperature is comfortable for sleeping.</li>
+<!--        <li>Manage your exposure to light. The key to better sleep hygiene is managing your exposure to light. Your brain depends on the level of ambient light or darkness to manage your daily rhythms. Before bedtime, limit your exposure to light as much as possible and while sleeping.</li>\n-->
+<!--        <li>Exercise. Make sure to get regular exercise and spend some time outdoors in the sunlight every day. This is a good way to set your biologic clock, and it helps maintain a regular sleep-wake cycle. However, try to exercise at least three hours before bed or else the stress hormones released by exercising might keep you up.</li>\n-->
+<!--        <li>Skip the nap. Avoid afternoon naps, which can lead to nighttime insomnia.</li>\n-->
+<!--        <li>Limit caffeine and alcohol, especially later in the day. Caffeine is a stimulant and can keep you wide awake, while alcohol can disrupt sleep quality. Alcohol before bedtime will interfere with sleep and it may help you fall asleep, but you are less likely to sleep through the night.</li>\n-->
+<!--        <li>Get up if you can't sleep. Don't waste time lying in bed looking at your clock. If you find yourself lying awake, the best thing is to get up and do something relaxing until you feel tired.</li>\n-->
+<!--        <li>Shut off the TV and the phone. Avoid watching television late at night. Most shows in the evening are too stimulating and do not promote good sleep. It's better to read a book or do a relaxing activity in the hours before bed. If you must use your phone, download applications that dim the screen down to very dim levels such as 'Screen Filter.'</li>\n-->
+<!--        <li>Turn your bedroom into a sleep-inducing environment. Use your bedroom primarily for sleep and try your best to make it a quiet, dark, and cool environment.</li>\n-->
+<!--        <li>Establish a soothing pre-sleep routine and keep a consistent sleep schedule. Ease your transition from wake time to sleep time with an hour or so of relaxing activities. Take a bath, read a book, or practice relaxation exercises. In addition, sleeping and waking up at the same time every day will help establish a daily rhythm to your brain.</li>\n-->
+<!--        <li>Practice good sleep hygiene. This includes using your bedroom primarily for sleeping and sticking to a regular sleep schedule. Avoid distractions in your bedroom, like phones, computers, too much light, and too much noise. Make sure your bed is comfortable and that the room temperature is comfortable for sleeping.</li>-->
     </string>
     <string name="sleep_link">http://healthysleep.med.harvard.edu/healthy/getting/overcoming/tips</string>
     <string name="cognitive_therapy">Cognitive Therapy</string>
@@ -401,6 +401,8 @@
     <string name="resource_link_3">
         <a href='https://contextualscience.org/the_six_core_processes_of_act'>The Six Core Processes of ACT</a>
     </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

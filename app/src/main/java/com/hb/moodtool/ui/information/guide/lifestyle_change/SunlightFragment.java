@@ -1,13 +1,13 @@
 package com.hb.moodtool.ui.information.guide.lifestyle_change;
 
-import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.transition.TransitionInflater;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.fragment.app.Fragment;
 
 import com.hb.moodtool.R;
 import com.hb.moodtool.utils.MyTextViewUtils;
@@ -22,9 +22,7 @@ public class SunlightFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            setSharedElementEnterTransition(TransitionInflater.from(getContext()).inflateTransition(android.R.transition.move));
-        }
+        setSharedElementEnterTransition(TransitionInflater.from(getContext()).inflateTransition(android.R.transition.move));
     }
 
     @Override
